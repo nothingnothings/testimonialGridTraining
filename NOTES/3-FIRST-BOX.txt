@@ -1,0 +1,262 @@
+
+
+
+
+
+
+
+
+
+
+
+NESSE VIDEO, FAREMOS APENAS O SETUP SIMPLES DA PRIMEIRA BOX..
+
+
+
+
+
+
+
+
+-> VAMOS CRIAR A PRIMEIRA BOX,
+    E AÍ A UTILIZAREMOS DE MODELO PARA TODAS AS OUTRAS...
+
+
+
+
+
+
+
+
+--> A PRIMEIRA BOX TERÁ 1 BACKGROUND COM UMAS QUOTES, e será roxa...
+
+
+
+
+
+
+
+PRIMEIRAMENTE, O PROFESSOR ADICIONA 1 BACKGROUND AO 
+
+BODY,
+
+
+com 
+
+
+
+'bg-gray-200'...
+
+
+
+
+
+
+
+
+
+
+VAMOS ESCREVENDO TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+  <body class="bg-gray-200">
+    <!-- Global Container -->
+    <div class="container mx-auto max-w 7xl p-2 md:p-10">
+      <!-- Grid Container -->
+      <div class="text-white"></div>
+    </div>
+  </body> 
+
+
+
+
+
+
+
+
+AÍ CRIAMOS A PRIMEIRA BOX...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VAI FICANDO TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+  <body class="bg-gray-200">
+    <!-- Global Container -->
+    <div class="container mx-auto max-w 7xl p-2 md:p-10">
+      <!-- Grid Container -->
+      <div class="text-white">
+        <!-- Box 1 -->
+        <div class="relative p-10 rounded-xl bg-purple-700">
+          <!-- Quotes Image (absolutely positioned) -->
+          <img
+            src="images/bg-pattern-quotation.svg"
+            class="absolute top-3 right-10 scale-125 md:top-7 md:right-24 md:scale-150"
+            alt="quotes"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+
+
+
+
+
+
+  -> AÍ PRECISAMOS DO HEADER DA BOX...
+
+
+
+
+
+
+  ESCREVEMOS TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+  <body class="bg-gray-200">
+    <!-- Global Container -->
+    <div class="container mx-auto max-w 7xl p-2 md:p-10">
+      <!-- Grid Container -->
+      <div class="text-white">
+        <!-- Box 1 -->
+        <div class="relative p-10 rounded-xl bg-purple-700">
+          <!-- Quotes Image (absolutely positioned) -->
+          <img
+            src="images/bg-pattern-quotation.svg"
+            class="absolute top-3 right-10 scale-125 md:top-7 md:right-24 md:scale-150"
+            alt="quotes"
+          />
+          <!-- Box Header -->
+          <div class="flex z-10 space-x-4">
+            <!-- Person Image -->
+            <img
+              src="images/image-daniel.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <!-- Person Name -->
+            <div class="text-sm">
+              <h4 class="opacity-90">Daniel Clifford</h4>
+              <p class="opacity-50">Verified Graduate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+O CÓDIGO FINAL DESSA PRIMEIRA BOX FICOU ASSIM:
+
+
+
+
+
+
+
+
+
+  <body class="bg-gray-200">
+    <!-- Global Container -->
+    <div class="container mx-auto max-w 7xl p-2 md:p-10">
+      <!-- Grid Container -->
+      <div class="text-white">
+        <!-- Box 1 -->
+        <div class="relative p-10 rounded-xl bg-purple-700">
+          <!-- Quotes Image (absolutely positioned) -->
+          <img
+            src="images/bg-pattern-quotation.svg"
+            class="absolute top-3 right-10 scale-125 md:top-7 md:right-24 md:scale-150"
+            alt="quotes"
+          />
+          <!-- Box Header -->
+          <div class="flex z-10 space-x-4">
+            <!-- Person Image -->
+            <img
+              src="images/image-daniel.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full ring-2 ring-purple-300"
+            />
+            <!-- Person Name -->
+            <div class="text-sm">
+              <h4 class="opacity-90">Daniel Clifford</h4>
+              <p class="opacity-50">Verified Graduate</p>
+            </div>
+          </div>
+          <!-- Large Info Text -->
+          <p class="relative z-10 mt-6 text-xl">
+            I received a jog offer mid-course, and the subjects I learned were
+            current, if not more so, in the company I joined. I honestly feel I
+            got every penny's worth.
+          </p>
+          <!-- Small Info Text -->
+          <p class="mt-6 opacity-50">
+            "I was an EMT for many years before I joined the bootcamp. I've been
+            looking to make a transition and have heard some people who had an
+            amazing experience here. I signed up for the free intro course and
+            found it incredibly fun! I enrolled shortly thereafter. The next 12
+            weeks was the best - and most grueling - time of my life. Since
+            completing the course, I've successfully switched careers, working
+            as a Software Engineer at a VR startup."
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>

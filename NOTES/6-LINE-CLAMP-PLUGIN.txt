@@ -1,0 +1,239 @@
+
+
+
+
+
+
+
+
+
+OK... NESSE VIDEO, VEREMOS COMO INSTALAR 1 PLUGIN, CHAMADO DE 'LINE-CLAMP',
+ 
+QUE VAI NOS DEIXAR FAZER 'TRUNCATE' de text....
+
+
+
+
+
+
+
+
+
+-> ISSO PQ ALGUNS DE NOSSOS TESTIMONIALS SÃO MT LONGOS,
+
+    POR ISSO É UMA BOA IDEIA USAR ESSE PLUGIN,
+
+    QUE VAI DEIXAR 
+
+
+    ''TEXTO TEXTO TEXTO...''
+
+
+    nas partes em que 
+
+    temos texto dms..
+
+
+
+
+
+
+
+--> existem vários plugins, e vc pode escrever até mesmo seus próprios plugins...
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ --> TEMOS O LINK DOS PLUGINS OFICIAIS..
+.
+
+
+
+
+
+
+
+
+-> LINE-CLAMP É UM DOS OFICIAIS...
+
+
+
+
+
+
+https://github.com/tailwindlabs/tailwindcss-line-clamp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK... MAS AQUI TEMOS 1 DETALHE:
+
+
+
+
+
+
+
+
+
+
+A plugin that provides utilities for visually truncating text after a fixed number of lines.
+
+Warning As of Tailwind CSS v3.3 the line-clamp utilities are now included in the framework by default and this plugin is no longer required.
+
+
+
+
+
+
+
+
+
+
+
+
+antigamente, o plugin era instalado assim:
+
+
+
+
+
+
+
+npm install -D @tailwindcss/line-clamp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A ANTIGA SINTAXE DE INSTALAÇÃO ERA TIPO 
+
+
+
+
+
+plugin: [
+    require('@tailwindcss/line-clamp'),
+]
+
+
+
+
+
+
+
+
+
+
+
+
+OK... AGORA SEREMOS CAPAZES DE USAR ESSE PLUGIN EM QUALQUER LUGAR DE NOSSO CÓDIGO HTML...
+
+
+
+
+
+
+
+
+-> NA PARTE 
+
+
+
+DO PRIMEIRO TEXTO,
+
+
+O PROFESSOR ADICIONA 1 MONTE DE TEXTO....
+
+
+
+--> O QUE ELE FAZ, ENTÃO,
+
+    É ADICIONAR 
+
+
+    A 
+
+
+
+    CLASS DE 'line-clamp-xxxxx''
+
+
+
+
+
+    -> SE VC COLOCA 1 VALUE MAIS ALTO, O CLAMP VAI CORTAR/TRUNCATE MAIS TARDE 
+        NO TEXTO... (vc pode escolher quantas linhas vc tem, antes de escrever '...' ao final)...
+
+
+
+
+
+
+    
+
+
+    FICOU TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+           <!-- Small Info Text -->
+          <p class="mt-6 opacity-50 line-clamp-6">
+            "I was an EMT for many years before I joined the bootcamp. I've been
+            looking to make a transition and have heard some people who had an
+            amazing experience here. I signed up for the free intro course and
+            found it incredibly fun! I enrolled shortly thereafter. The next 12
+            weeks was the best - and most grueling - time of my life. Since
+            completing the course, I've successfully switched careers, working
+            as a Software Engineer at a VR startup. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ratione vero repudiandae, quasi atque
+            officiis eum consectetur odio amet dolorem deleniti repellat
+            expedita aut sunt laudantium cum itaque nam voluptatum quod! Quo
+            totam sequi omnis deserunt? Sit nam molestiae excepturi,
+            perspiciatis labore deleniti eum, eligendi quisquam quod sed nobis
+            exercitationem tempora! "
+          </p>
+
+
+
+
+
+
+
+
+        CERTO, E REALMENTE FUNCIONOU...

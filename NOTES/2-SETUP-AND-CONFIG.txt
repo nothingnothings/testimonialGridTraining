@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+
+
+
+
+O SETUP PARA ESSE PROJECT SERÁ BEM SIMPLES...
+
+
+
+
+
+
+
+
+COPIAMOS O CÓDIGO DO ÚLTIMO PROJECT,
+
+
+
+PARA TER O TAILWIND-STARTER MAIS UMA VEZ...
+
+
+
+
+
+
+
+
+
+
+NAO TEMOS MT SETUP ESPECIAL, DESSA VEZ...
+
+
+
+
+
+
+
+MAS TEMOS O SETUP COMUM DE SCREENS DO PROFESSOR, QUE É ASSIM:
+
+
+
+
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['*'],
+  theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+CERTO...
+
+
+
+
+
+
+
+Também temos 1 fontFamily de sans especial, que será 
+
+'Barlow Semi Condensed'...
+
+
+
+FICOU TIPO ASSIM:
+
+
+
+
+
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['*'],
+  theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    extend: {
+      fontFamily: {
+        sans: ['Barlow Semi Condensed', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
+
+
+
+
+
+ALÉM DISSO, TEMOS ALGUMAS IMAGES... baixamos do repositório...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ASSIM COMO O PROFESSOR MENCIONOU NO INTRO,
+
+VAMOS 
+
+COMEÇA PELO CREATE DOS CARDS, SEM USAR QUAISQUER GRID CLASSES,
+
+PARA 
+
+
+ENTÃO CRIARMOS 1 GRID, E AÍ 
+
+ADICIONARMOS TODAS AS COLS E ROW SPANS...

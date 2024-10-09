@@ -1,0 +1,107 @@
+
+
+ATÉ AGORA, USAMOS UM MONTE DE FLEXBOX... E É ISSO QUE TIPICAMENTE FAZEMOS,
+QUANDO USAMOS TAILWIND...
+
+
+
+
+
+
+
+
+
+--> GERALMENTE USAMOS FLEXBOX, EXCETO QUANDO TEMOS LAYOUTS ESPECIAIS... COMO O DO PROJECT 
+ATUAL..
+
+
+
+
+
+
+
+
+
+--> NO PROJECT ATUAL, TEMOS:
+
+1) DIFFERENT-SIZED COLUMNS AND ROWS (2-dimensional layout)..
+
+
+
+
+
+
+
+
+
+
+
+
+SE TEMOS 2 COLUMNS DE MESMO TAMANHO, GERALMENTE USAMOS AS FLEX CLASSES...
+
+
+
+
+
+
+
+
+--> MAS COMO NESSE PROJECT TEMOS COLUMNS DE TAMANHOS DIFERENTES,
+    É MELHOR USARMOS GRID...
+
+
+
+
+--> O PLANO É CRIAR TODAS AS BOXES/CARDS
+
+    DE MODO QUE ELES EXISTAM DE FORMA 'STACKED ON EACH OTHER'
+
+    em telas menores,
+
+    e existam em sua forma pura (com diferentes tamanhos e encaixes) 
+    nas telas maiores...
+
+
+
+
+--> vamos adicionar spans, pq 
+    algumas das boxes ocupam 2 cols, etc etc...
+
+
+
+
+
+
+
+
+-> NO FINAL, O PROFESSOR VAI INSTALAR 1 PLUGIN,
+
+CHAMADO DE 'LINE CLAMP',
+
+
+QUE 
+
+VAI 
+
+'TRUNCATE' O NOSSO TEXT... (no caso, quando vc tem texts mt grandes,
+o tailwind, com esse plugin, vai fazer com que o final do texto fique como '...')
+
+
+
+
+
+
+
+
+
+
+
+
+--> isso é útil, pois mantém o formato/layout original...
+
+
+
+
+
+
+
