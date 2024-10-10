@@ -1,4 +1,4 @@
-# TestimonialGridTraining
+# testimonialGridTraining
 
 This README outlines the structure of the `index.html` file for the TestimonialGridTraining project, featuring a grid layout of testimonials using Tailwind CSS for styling.
 
