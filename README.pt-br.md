@@ -1,5 +1,8 @@
 # testimonialGridTraining
 
+[![en](https://img.shields.io/badge/lang-en-red.svg?style=flat-square)](https://github.com/nothingnothings/testimonialGridTraining)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg?style=flat-square)](https://github.com/nothingnothings/testimonialGridTraining/blob/master/README.pt-br.md)
+
 Este README descreve a estrutura do arquivo `index.html` para o projeto TestimonialGridTraining, que apresenta um layout em grade de depoimentos usando Tailwind CSS para estilização.
 
 ![screenshot](screenshot.png)
